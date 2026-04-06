@@ -1,0 +1,6 @@
+openai>=1.0.0
+qdrant-client>=1.14.0
+neo4j>=5.28.0
+python-dotenv>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
