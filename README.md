@@ -18,8 +18,7 @@ pip install -r requirements.txt
 | 01 | Vanilla LLM | Hallucinated citations | — |
 | 02 | Vector RAG | Semantic drift (wrong papers) | Dense vector search + Qdrant |
 | 03 | Hybrid Search | Missing keyword precision | BM25 + dense + RRF fusion |
-| 04 | Reranking *(optional)* | Retrieval ordering | MRL-based reranker |
-| 05 | GraphRAG | Can't find foundational/connected papers | Neo4j citation graph enrichment |
+| 04 | GraphRAG | Can't find foundational/connected papers | Neo4j citation graph enrichment |
 
 Run them in order. Each one exposes a limitation that the next one solves.
 
